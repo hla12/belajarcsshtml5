@@ -1,0 +1,87 @@
+/*install fonts*/
+@font-face{
+    font-family: alfa;
+    src: url('../font/alfa.ttf');
+}
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header{
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+    background: teal;
+}
+
+.header .logo{  
+    font-size: 20px;
+    float: left;
+    font-style: italic;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+.header .logo:hover{
+    color: rgb(233, 163, 33);
+    text-shadow: 1px 1px;
+}
+
+.header .navigation{
+    float: right;
+    margin-top: 25px;
+}
+
+.header .navigation li{
+    float: right;
+    margin-left: 25px;
+    display: block; 
+    font-size: 18px;
+}
+
+.header .navigation li a{
+    font-family: serif  ;
+    color: white;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover{
+color: rgb(233, 163, 33);
+text-decoration: underline;
+}
+
+table, td{
+    padding: 5px;
+}
+
+section{
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    color: slategray;
+}
+
+.icon-kelas{
+    width: 200px;
+    height: 200px;
+    background: rgb(16, 172, 172);
+    background-image: url('../img/pm.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.parent{
+    margin-top: 50px;
+}
